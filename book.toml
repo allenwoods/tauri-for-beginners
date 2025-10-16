@@ -1,0 +1,29 @@
+[book]
+title = "学习 Tauri"
+description = "一个全面的 Tauri 开发教程，涵盖前置要求、HTML、CSS、JavaScript、Rust 和 Tauri 开发"
+authors = ["Allen Woods"]
+language = "zh-CN"
+multilingual = false
+src = "src_md"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/allenwoods/learn-tauri"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/allenwoods/learn-tauri/edit/main/{path}"
+search.enable = true
+search.limit-results = 30
+search.teaser-word-count = 30
+search.use-boolean-and = true
+search.boost-title = 2
+search.boost-hierarchy = 1
+search.boost-paragraph = 1
+search.boost-keywords = 1
+
+[output.html.print]
+enable = true
