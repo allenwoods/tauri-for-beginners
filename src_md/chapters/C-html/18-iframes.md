@@ -4,7 +4,7 @@ HTML 中的 iframe 是一个强大的工具，允许您在当前页面中嵌入�
 
 ## 基本用法
 
-要在网页中添加 iframe，您使用 <iframe> 标签并使用 src 属性指定源 URL。这是一个简单的示例：
+要在网页中添加 iframe，您使用 `<iframe>` 标签并使用 `src` 属性指定源 URL。这是一个简单的示例：
 
 ```html
 <iframe src="https://www.example.com"></iframe>

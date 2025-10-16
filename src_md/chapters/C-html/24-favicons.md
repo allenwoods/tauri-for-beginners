@@ -6,7 +6,7 @@ To incorporate a favicon into your website, follow these detailed steps:
 
 - 1. **Create a Favicon Image**: Begin by designing a square image that embodies your website's brand or logo. The most common sizes are 16x16 pixels and 32x32 pixels, but you can also create larger versions for high-resolution displays. Save this image in a widely-used format such as PNG, ICO, or SVG. Tools like Adobe Photoshop, GIMP, or online favicon generators can help you create and optimize your favicon.
 - 2. **Place the Favicon Image in the Root Directory**: Upload your favicon image to your website's root directory, which is usually the same directory where your index.html file resides. This ensures that the browser can easily locate the favicon when loading your website.
-- 3. **Add the Favicon Link Tag to Your HTML**: Open your HTML file and find the <head> section. Insert the following line of code between the <head> and </head> tags:
+- 3. **Add the Favicon Link Tag to Your HTML**: Open your HTML file and find the `<head>` section. Insert the following line of code between the `<head>` and `</head>` tags:
 
 ```
 <link rel="icon" href="favicon.ico" type="image/x-icon">
