@@ -4,15 +4,15 @@ In the world of HTML, symbols hold a special place. These symbols, known as enti
 
 Let's explore some of the most commonly used entities in HTML:
 
-- < stands for the less-than symbol ( < ).
-- > stands for the greater-than symbol ( > ).
-- & stands for the ampersand symbol ( & ).
-- " stands for the double quotation mark ( " ).
-- ' stands for the single quotation mark ( ' ).
+- `<` stands for the less-than symbol.
+- `>` stands for the greater-than symbol.
+- `&` stands for the ampersand symbol.
+- `"` stands for the double quotation mark.
+- `'` stands for the single quotation mark.
 
 These entities are incredibly useful when you need to display special characters in your HTML documents without them being mistaken for actual HTML code. This is particularly handy when you want to include HTML code examples within your web pages.
 
-For instance, if you want to display the less-than symbol ( < ) in your HTML, you can use the entity reference < like this: <p>This is a paragraph.</p> . This will render as <p>This is a paragraph.</p> in the browser, allowing you to show the HTML tags without them being processed.
+For instance, if you want to display the less-than symbol ( `<` ) in your HTML, you can use the entity reference `<` like this: `<p>This is a paragraph.</p>` . This will render as `<p>`This is a paragraph.`</p>` in the browser, allowing you to show the HTML tags without them being processed.
 
 Beyond these basic entities, HTML supports a vast array of other entities for various symbols, including mathematical operators, currency symbols, and accented characters. Here are a few examples:
 

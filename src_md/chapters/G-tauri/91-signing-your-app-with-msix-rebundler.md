@@ -30,7 +30,7 @@ app.msix> --cert <path-to-your-certificate.pfx> --password <your-certificate-
 password>
 ```
 
-将 <path-to-your-app.msix>、<path-to-signed-app.msix>、<path-to-your-certificate.pfx> 和 <your-certificate-password> 替换为适当的值。
+将 `<path-to-your-app.msix>`、`<path-to-signed-app.msix>`、`<path-to-your-certificate.pfx>` 和 `<your-certificate-password>` 替换为适当的值。
 
 #### 4. 验证签名
 

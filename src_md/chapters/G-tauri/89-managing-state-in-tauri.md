@@ -74,7 +74,7 @@ state.counter += 1;
 
 #### 您需要 Arc 吗？
 
-在 Rust 中，Arc 通常用于跨线程共享值的所有权，通常与 Mutex 配对使用（Arc<Mutex<T>>）。Tauri 为您处理了这一点，因此您不需要对存储在 State 中的值使用 Arc。
+在 Rust 中，Arc 通常用于跨线程共享值的所有权，通常与 Mutex 配对使用（`Arc<Mutex<T>`>）。Tauri 为您处理了这一点，因此您不需要对存储在 State 中的值使用 Arc。
 
 ## 访问状态
 
@@ -144,7 +144,7 @@ fn main() {
 
 需要注意的是，为 State 参数使用错误的类型会导致运行时 panic。
 
-例如，使用 State<'_, AppState> 而不是 State<'_, Mutex<AppState>> 会导致问题。
+例如，使用 `State<'_, AppState>` 而不是 `State<'_, Mutex<AppState>>` 会导致问题。
 
 为了避免这种情况，考虑使用类型别名：
 

@@ -4,7 +4,7 @@ CSS 和 HTML 中的多列允许您创建内容分为多列的布局，类似于�
 
 ## 创建多列
 
-要创建多列，您可以使用 CSS column-count 属性。此属性指定您想要将内容分成的列数。例如，如果您想将内容分成三列，可以设置 column-count: 3;。
+要创建多列，您可以使用 CSS column-count 属性。此属性指定您想要将内容分成的列数。例如，如果您想将内容分成三列，可以设置 `column-count: 3;`。
 
 #### 示例
 
@@ -38,7 +38,7 @@ lacinia nunc, nec lacinia nunc nunc id nunc.</p>
 </html>
 ```
 
-在上面的示例中，column-container 类应用于包装我们要分成列的内容的 <div> 元素。column-count 属性设置为 3，创建三列。column-gap 属性用于在列之间添加一些间距。
+在上面的示例中，column-container 类应用于包装我们要分成列的内容的 `<div>` 元素。column-count 属性设置为 3，创建三列。column-gap 属性用于在列之间添加一些间距。
 
 ## 附加属性
 

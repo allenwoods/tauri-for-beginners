@@ -40,7 +40,7 @@ src 属性指定外部资源的源 URL，如图片或脚本。例如：
 
 #### Href 属性
 
-href 属性定义超链接的目标 URL，通常在 <a> 标签中使用。例如：
+href 属性定义超链接的目标 URL，通常在 `<a>` 标签中使用。例如：
 
 ```html
 <a href="https://www.example.com">Visit Example</a>

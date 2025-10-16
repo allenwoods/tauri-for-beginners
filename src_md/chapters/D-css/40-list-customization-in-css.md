@@ -16,7 +16,7 @@ list-style-type 的其他可能值包括 disc、circle 和 none。这些值中�
 
 ### 深入更改项目符号样式
 
-list-style-type 属性是 CSS 中的一个多功能工具，允许您控制列表项标记的外观。默认情况下，无序列表（<ul>）使用圆盘形项目符号，但这可以轻松更改以满足您的设计需求。例如，如果您更喜欢方形项目符号，可以将 list-style-type 设置为 square：
+list-style-type 属性是 CSS 中的一个多功能工具，允许您控制列表项标记的外观。默认情况下，无序列表（`<ul>`）使用圆盘形项目符号，但这可以轻松更改以满足您的设计需求。例如，如果您更喜欢方形项目符号，可以将 list-style-type 设置为 square：
 
 ```css
 ul {

@@ -10,7 +10,7 @@ Tauri 使用 Microsoft C++ Build Tools 进行开发。因此，在开始制作�
 
 ## Git
 
-- 步骤 1. 访问 <https://git-scm.com/download/win> 并下载 64 位安装程序
+- 步骤 1. 访问 `<https://git-scm.com/download/win>` 并下载 64 位安装程序
 - 步骤 2. 点击安装程序启动向导。
 - 步骤 3. 通过向导选择所有推荐选项。
 - 步骤 4. 重启计算机。
@@ -44,7 +44,7 @@ git push
 
 ## Rust
 
-步骤 1. 访问 <https://www.rust-lang.org/tools/install> 步骤 2. 下载 64 位 Rustup-Init.exe 脚本
+步骤 1. 访问 `<https://www.rust-lang.org/tools/install>` 步骤 2. 下载 64 位 Rustup-Init.exe 脚本
 
 步骤 3. 点击下载的可执行文件
 

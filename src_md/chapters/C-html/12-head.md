@@ -75,7 +75,7 @@ family=Roboto:wght@400;700&display=swap">
 
 ## Style 元素
 
-<style> 元素允许您直接在 HTML 文档中包含内部 CSS 样式。
+`<style>` 元素允许您直接在 HTML 文档中包含内部 CSS 样式。
 
 #### 示例
 

@@ -71,11 +71,11 @@
 
 您的元数据文件必须包含以下部分：
 
-- <id>：您应用程序的唯一标识符，应与清单文件中的 ID 匹配。
-- <project_license>：指定您的项目分发的许可证。
-- <name>：您应用程序的名称，它将显示给用户。
-- <summary>：您的应用程序功能的简要摘要。
-- <developer>：有关应用程序开发者的信息，包括 ID 和名称。示例：
+- `<id>`：您应用程序的唯一标识符，应与清单文件中的 ID 匹配。
+- `<project_license>`：指定您的项目分发的许可证。
+- `<name>`：您应用程序的名称，它将显示给用户。
+- `<summary>`：您的应用程序功能的简要摘要。
+- `<developer>`：有关应用程序开发者的信息，包括 ID 和名称。示例：
 
 ```xml
 <developer id="org.example">
@@ -83,7 +83,7 @@
 </developer>
 ```
 
-<description>：您应用程序的详细描述，可以包括段落、强调文本、代码片段、列表等。示例：
+`<description>`：您应用程序的详细描述，可以包括段落、强调文本、代码片段、列表等。示例：
 
 ```xml
 <description>
@@ -104,7 +104,7 @@
 </description>
 ```
 
-<launchable>：指定应用程序如何启动，通常引用桌面入口文件。示例：
+`<launchable>`：指定应用程序如何启动，通常引用桌面入口文件。示例：
 
 ```xml
 <launchable type="desktop-id">org.example.app.desktop</launchable>

@@ -32,7 +32,7 @@ getElementsByTagName() 方法返回具有指定标签名的元素集合。它可
 const elements = document.getElementsByTagName('div');
 ```
 
-**用例**: 此方法对于遍历特定类型的所有元素很有用，如所有 <div> 或 <p> 标签。
+**用例**: 此方法对于遍历特定类型的所有元素很有用，如所有 `<div>` 或 `<p>` 标签。
 
 #### 4. querySelector()
 
