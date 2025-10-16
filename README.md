@@ -6,7 +6,7 @@
 
 本教程的在线版本已通过 GitHub Pages 自动部署：
 
-**🌐 [查看在线文档](https://allenwoods.github.io/learn-tauri/)**
+**🌐 [查看在线文档](https://allenwoods.github.io/tauri-for-beginners/)**
 
 ## 🚀 本地开发
 
