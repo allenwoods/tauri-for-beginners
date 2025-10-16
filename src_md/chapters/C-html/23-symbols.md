@@ -1,34 +1,30 @@
-#  **[Symbols] **
+# Symbols
 
-In the world of HTML, symbols hold a special place. These symbols, known as entities, are characters that have reserved meanings within the HTML language. They are represented using entity references, which always start with an ampersand ( & ) and end with a semicolon ( ; ). These entities are essential for displaying characters that might otherwise be interpreted as HTML code.
+在 HTML 的世界中，符号占据着特殊的位置。这些符号被称为实体（entities），是在 HTML 语言中具有保留含义的字符。它们使用实体引用表示，总是以与号（&）开始，以分号（;）结束。这些实体对于显示可能被解释为 HTML 代码的字符至关重要。
 
-Let's explore some of the most commonly used entities in HTML:
+让我们探索一些 HTML 中最常用的实体：
 
-- `<` stands for the less-than symbol.
-- `>` stands for the greater-than symbol.
-- `&` stands for the ampersand symbol.
-- `"` stands for the double quotation mark.
-- `'` stands for the single quotation mark.
+- `&lt;` 代表小于符号。
+- `&gt;` 代表大于符号。
+- `&amp;` 代表与号符号。
+- `&quot;` 代表双引号。
+- `&#39;` 代表单引号。
 
-These entities are incredibly useful when you need to display special characters in your HTML documents without them being mistaken for actual HTML code. This is particularly handy when you want to include HTML code examples within your web pages.
+当您需要在 HTML 文档中显示特殊字符而不被误认为是实际的 HTML 代码时，这些实体非常有用。当您想在网页中包含 HTML 代码示例时，这特别方便。
 
-For instance, if you want to display the less-than symbol ( `<` ) in your HTML, you can use the entity reference `<` like this: `<p>This is a paragraph.</p>` . This will render as `<p>`This is a paragraph.`</p>` in the browser, allowing you to show the HTML tags without them being processed.
+例如，如果您想在 HTML 中显示小于符号（<），您可以使用实体引用 `&lt;`，就像这样：`&lt;p&gt;This is a paragraph.&lt;/p&gt;`。这将在浏览器中渲染为 `<p>This is a paragraph.</p>`，允许您显示 HTML 标签而不被处理。
 
-Beyond these basic entities, HTML supports a vast array of other entities for various symbols, including mathematical operators, currency symbols, and accented characters. Here are a few examples:
+除了这些基本实体之外，HTML 还支持各种符号的大量其他实体，包括数学运算符、货币符号和重音字符。以下是一些示例：
 
-- © stands for the copyright symbol ( © ).
-- € stands for the euro currency symbol ( € ).
-- ™ stands for the trademark symbol ( ™ ).
-- α stands for the Greek letter alpha ( α ).
-- β stands for the Greek letter beta ( β ).
+- `&copy;` 代表版权符号（©）。
+- `&euro;` 代表欧元货币符号（€）。
+- `&trade;` 代表商标符号（™）。
+- `&alpha;` 代表希腊字母 alpha（α）。
+- `&beta;` 代表希腊字母 beta（β）。
 
-Using these entities ensures that your content is displayed correctly across different browsers and platforms. It also helps prevent issues with character encoding, as these entities are universally recognized.
+使用这些实体确保您的内容在不同浏览器和平台上正确显示。它还有助于防止字符编码问题，因为这些实体是普遍认可的。
 
-A crucial point to remember is to always end entity references with a semicolon ( ; ). This ensures proper rendering in all browsers. Omitting the semicolon can lead to unexpected results, as the browser may not correctly interpret the entity.
+要记住的一个关键点是始终以分号（;）结束实体引用。这确保在所有浏览器中正确渲染。省略分号可能导致意外结果，因为浏览器可能无法正确解释实体。
 
- 
-
-In summary, HTML entities are a powerful tool for including special characters in your web pages. By using entity references, you can ensure that your content is displayed as intended, without being misinterpreted as HTML code.
-
- 
+总之，HTML 实体是在网页中包含特殊字符的强大工具。通过使用实体引用，您可以确保您的内容按预期显示，而不会被误解为 HTML 代码。
 
